@@ -15,7 +15,8 @@ router.get("/:noteID", NoteController.getNote);
 // Creazione di un post con ritorno 201 
 router.post("/", NoteController.createNotes);
 
+router.patch("/:noteID", NoteController.updateNote);
 
-
+router.delete("/:noteID", NoteController.deleteNote);
 
 export default router;

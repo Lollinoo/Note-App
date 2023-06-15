@@ -13,4 +13,4 @@ mongoose.connect(mongoURI).then(() => {
     console.log("Mongoose connected");
     app.listen(expressPORT, () =>{ console.log("Express connected to port: ", expressPORT); });
     
-})
+});
